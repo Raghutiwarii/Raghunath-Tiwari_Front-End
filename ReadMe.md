@@ -27,6 +27,7 @@ Second issue:-
 <li
       style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={onClickHandler(index)}
+>
 ```
 
 This line gives an error because onClickHandler should be defined as an arrow function.
