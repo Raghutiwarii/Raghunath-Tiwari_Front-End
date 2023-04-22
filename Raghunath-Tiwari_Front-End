@@ -1,7 +1,9 @@
 1. Explain what the simple List component does
 Ans:-
-
-
+The Simple List Component in React is a reusable component that displays a list of items and allows the user to select one item. It comprises two sub-components, 
+WrappedSingleListItem and WrappedListComponent. The WrappedSingleListItem renders individual list items and sets the style of the li element based on whether 
+the item is selected or not. The WrappedListComponent renders the list by mapping over the array of items and passing each item to the SingleListItem component,
+which is a memoized version of WrappedSingleListItem. When an item is clicked, its background color changes to green to indicate that it is the current selection.
 
 2. What problems / warnings are there with code?
 Ans:- Given code has few pronlems / warnings which is meantioned below
