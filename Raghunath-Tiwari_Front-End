@@ -1,4 +1,4 @@
-#3.Please fix, optimize, and/or modify the component as much as you think is necessary.
+3.Please fix, optimize, and/or modify the component as much as you think is necessary.
 Ans:- All optmization ans  modifications are done in the component and modified code is given below 
 
 import React, { useState, useEffect, memo } from "react";
