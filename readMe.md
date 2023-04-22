@@ -12,6 +12,7 @@ which is a memoized version of WrappedSingleListItem. When an item is clicked, i
 Ans:- 
 
 Given code has few pronlems / warnings which is meantioned below
+
 First issue :-
 
 `
@@ -22,12 +23,11 @@ setSelectedIndex as a function which set our defined useState selectedIndex and 
 
 Second issue:- 
 
-`
+```
 <li
       style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={onClickHandler(index)}
-
-`
+```
 
 This line gives an error because onClickHandler should be defined as an arrow function.
 
